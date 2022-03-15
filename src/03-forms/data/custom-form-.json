@@ -1,0 +1,64 @@
+[
+    {
+        "type": "input",
+        "name": "fistName",
+        "placeholder": "Ruth",
+        "label": "First Name",
+        "value": "",
+        "validation": [
+            {
+                "type":"required"
+            },
+            {
+                "type":"minLength",
+                "value": 5
+            }
+        ]
+    },
+    {
+        "type": "input",
+        "name": "lastName",
+        "placeholder": "Castro",
+        "label": "Last Name",
+        "value": "",
+        "validation": [
+            {
+                "type":"required"
+            }
+        ]
+    },
+    {
+        "type": "email",
+        "name": "email",
+        "placeholder": "john@gmail.com",
+        "label": "Email Address",
+        "value": "",
+        "validation": [
+            {
+                "type":"required"
+            },
+            {
+                "type":"email"
+            }
+        ]
+    },
+    {
+        "type": "select",
+        "name": "favoriteGame", 
+        "label": "Favorite Game",
+        "value": "",
+        "validation": [
+            {
+                "type":"required"
+            }
+        ],
+        "options": [
+            {"id":1, "label":"Super Smash"},
+            {"id":2, "label":"Metal Gear"},
+            {"id":3, "label":"Resident Evil"},
+            {"id":4, "label":"Tetrix"},
+            {"id":5, "label":"Mario"}
+        ]
+    }
+]
+
